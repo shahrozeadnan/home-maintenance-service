@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customer.CustomerEditProfile"
+    android:background="@drawable/fyp2"
+    android:backgroundTint="#D1E4F4"
+    android:backgroundTintMode="screen"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage.Aboutus">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbaraboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#267CA5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:title="About us"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="352dp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="Home Maintenance Service App is the one-stop solution for all your home maintenance needs. We offer a wide range of services, including plumbing, electrical, painting, carpentry. Highly skilled professionals are available to take care of all your home maintenance needs. We pride ourselves on delivering top-quality services at affordable prices."
+        android:textColor="#267CA5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="496dp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="Customers can choose service providers according to your own choice from the list provided and Service Providers can choose to accept or reject the requests that come their way."
+        android:textColor="#267CA5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewelectrical"
+        android:layout_width="135dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/chosenelectrical" />
+
+    <ImageView
+        android:id="@+id/imageViewplumbing"
+        android:layout_width="135dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/chosenplumbing" />
+
+    <ImageView
+        android:id="@+id/imageViewpaint"
+        android:layout_width="135dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/chosenpaint" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="135dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/chosencarpentry" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

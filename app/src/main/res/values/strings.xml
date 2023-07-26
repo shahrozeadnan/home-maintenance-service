@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">fyp</string>
+    <string name="title_activity_signup_user" translatable="false">Signup_user</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_homepage_user">homepage_user</string>
+    <string name="title_activity_worker_sign_up">workerSignUp</string>
+    <string name="title_activity_user_settings">userSettings</string>
+    <string name="title_activity_workerhomepage">workerhomepage</string>
+    <string name="title_activity_personal_info">personalInfo</string>
+    <string name="title_activity_user_show">userShow</string>
+    <string name="title_activity_user_showw">userShoww</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup_here">Signup here</string>
+    <string name="email_address">email address</string>
+    <string name="todo">TODO</string>
+    <string name="work_available">Work Available</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="choose_city">Choose City:</string>
+    <string name="sign_up_as_customer">sign up as customer</string>
+    <string name="sign_up_as_worker">sign up as worker</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="signup">SignUp</string>
+    <string name="name">Name</string>
+    <string name="email_address_">Email Address</string>
+    <string name="enter_email_address">enter email address</string>
+    <string name="cnic">CNIC</string>
+    <string name="enter_cnic">enter CNIC</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="city">City</string>
+    <string name="Name">Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="address">Address</string>
+    <string name="shop_address_optional">Shop Address(Optional)</string>
+    <string name="experience">Experience</string>
+    <string name="work_experience">Work Experience</string>
+    <string name="paint">Paint</string>
+    <string name="carpentry">Carpentry</string>
+    <string name="electrical">Electrical</string>
+    <string name="plumbing">Plumbing</string>
+    <string name="sign_up">Sign-Up</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="re_type">Re-type</string>
+    <string name="re_type_password">Re-Type Password</string>
+    <string name="expertise">Expertise</string>
+    <string name="worker">Worker</string>
+    <string name="customer">Customer</string>
+    <string name="abc_gmail_com">abc@gmail.com</string>
+    <string name="save">Save</string>
+    <string name="date_month_year">date/month/year</string>
+    <string name="personal">Personal</string>
+
+    <string-array name="Cities">
+        <item>Islamabad</item>
+        <item>Rawalpindi</item>
+        <item>Karachi</item>
+        <item>Peshawar</item>
+        <item>Lahore</item>
+    </string-array>
+    <string name="title_activity_admin_homepage">AdminHomepage</string>
+    <string name="title_activity_list_item_customer_view">list_item_customer_view</string>
+    <string name="title_activity_customer_list">CustomerList</string>
+    <string name="title_activity_worker_list">WorkerList</string>
+    <string name="title_activity_worker_show_list">WorkerShowList</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="SelectService">Choose a service</string>
+    <string name="title_activity_worker_view_profile">WorkerViewProfile</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="title_activity_customer_edit_profile">CustomerEditProfile</string>
+    <string name="title_activity_worker_edit_profile">WorkerEditProfile</string>
+    <string name="title_activity_live_users_show">LiveUsersShow</string>
+    <string name="title_activity_liveworkersshowing">liveworkersshowing</string>
+    <string name="title_activity_waiting">waiting</string>
+    <string name="title_activity_tracker">tracker</string>
+    <string name="title_activity_liveworker_show">liveworker_show</string>
+    <string name="title_activity_aboutus">Aboutus</string>
+    <string name="title_activity_help">help</string>
+    <string name="title_activity_phonenum_verification">PhonenumVerification</string>
+    <string name="title_activity_phone_num_verification">PhoneNumVerification</string>
+    <string name="title_activity_customer_tracker">CustomerTracker</string>
+    <string name="title_activity_customer_payment">CustomerPayment</string>
+    <string name="title_activity_workerreview">workerreview</string>
+    <string name="title_activity_payment">payment</string>
+    <string name="title_activity_live_user_show">liveUserShow</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customer.userShoww"
+    android:background="@drawable/fyp2"
+    android:backgroundTint="#D1E4F4"
+    android:backgroundTintMode="screen"
+    >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="396dp"
+        android:layout_height="55dp"
+        android:background="#267CA5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/actionModeCloseDrawable"
+        app:title="Show Workers" />
+
+    <Spinner
+        android:id="@+id/sp"
+        android:layout_width="187dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="132dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:entries="@array/Cities"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="280dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginRight="36dp"
+        android:text="@string/choose_city"
+        android:textAlignment="gravity"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/WorkerShowList"
+        android:layout_width="386dp"
+        android:layout_height="457dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/livelocation"
+        android:layout_width="151dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="196dp"
+        android:text="Live Workers"
+        android:backgroundTint="#267CA5"
+        android:textColor="@color/white"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/registeredworkers"
+        android:layout_width="151dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="196dp"
+        android:text="Registered Workers"
+        android:textColor="@color/white"
+        android:backgroundTint="#267CA5"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

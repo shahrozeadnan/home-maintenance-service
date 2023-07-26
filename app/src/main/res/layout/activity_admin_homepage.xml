@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fyp2"
+    android:backgroundTint="#D1E4F4"
+    android:backgroundTintMode="screen"
+    tools:context=".Admin.AdminHomepage">
+
+
+    <Button
+        android:id="@+id/Customersview"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="144dp"
+        android:backgroundTint="#267CA5"
+        android:text="Show Customers"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/WorkersView"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="248dp"
+        android:backgroundTint="#267CA5"
+        android:text="Show Workers"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ShowPayments"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="356dp"
+        android:backgroundTint="#267CA5"
+        android:text="Show Payments"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/ShowRatings"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="464dp"
+        android:backgroundTint="#267CA5"
+        android:text="Show Ratings"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="576dp"
+        android:backgroundTint="#E2062C"
+        android:text="log Out"
+        android:textSize="15dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#267CA5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Admin"
+        tools:layout_editor_absoluteX="1dp"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

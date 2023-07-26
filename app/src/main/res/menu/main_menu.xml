@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_repair_service"
+            android:title="Home" />
+    </group>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/ViewProfile"
+                android:icon="@drawable/ic_baseline_account_circle_24"
+                android:title="View Profile"/>
+            <item
+                android:id="@+id/EditProfile"
+                android:icon="@drawable/ic_baseline_account_circle_24"
+                android:title="Edit Profile"/>
+            <item
+                android:id="@+id/Logout"
+                android:icon="@drawable/logout"
+                android:title="Log Out"/>
+            <item
+                android:id="@+id/DeleteAccount"
+                android:icon="@drawable/ic_baseline_delete_24"
+                android:title="Delete Account"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="App">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/Aboutus"
+                android:icon="@drawable/img"
+                android:title="About us"/>
+            <item android:id="@+id/Help"
+                android:icon="@drawable/ic_twotone_help_24"
+                android:title="Help"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

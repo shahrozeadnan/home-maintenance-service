@@ -1,0 +1,178 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fyp2"
+    android:backgroundTint="#D1E4F4"
+    android:backgroundTintMode="screen"
+
+    >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Worker.WorkerViewProfile">
+
+
+    <TextView
+        android:id="@+id/TextCNIC"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="568dp"
+        android:minHeight="48dp"
+        android:textColor="#267CA5"
+        android:textColorHint="#757575"
+        android:textSize="28sp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextCity"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="712dp"
+        android:minHeight="48dp"
+        android:textColor="#267CA5"
+        android:textColorHint="#757575"
+        android:textSize="28sp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarviewworker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#267CA5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:title="Personal Information" />
+
+    <ImageView
+        android:id="@+id/ProfileImage"
+        android:layout_width="140dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="Photo"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_add_a_photo_24" />
+
+
+    <TextView
+        android:id="@+id/NameText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="288dp"
+        android:minHeight="48dp"
+        android:textColor="#267CA5"
+        android:textSize="28sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/TextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="864dp"
+        android:minHeight="48dp"
+        android:textColor="#267CA5"
+        android:textSize="28sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="424dp"
+        android:minHeight="48dp"
+        android:textColor="#267CA5"
+        android:textSize="28sp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        android:text="Name"
+        android:drawableLeft="@drawable/personname"
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/PhoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="356dp"
+        android:text="Phone Number"
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/phonenum"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/CNICTextView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="496dp"
+        android:text="CNIC:"
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/personcnic"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/CityTextView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="640dp"
+        android:text="City"
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/personcity"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/EmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="788dp"
+        android:text="Email"
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/personemail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

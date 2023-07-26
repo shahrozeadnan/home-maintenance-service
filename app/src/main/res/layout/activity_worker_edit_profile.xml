@@ -1,0 +1,225 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fyp2"
+    android:backgroundTint="#D1E4F4"
+    android:backgroundTintMode="screen"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Worker.WorkerEditProfile">
+
+
+        <EditText
+            android:id="@+id/WorkerTextCity"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="600dp"
+            android:hint="City"
+            android:minHeight="48dp"
+            android:textColor="#267CA5"
+            android:textColorHint="#757575"
+            android:textSize="20sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbareditworker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#267CA5"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            app:title="Update Profile" />
+
+        <ImageView
+            android:id="@+id/WorkerProfileImage"
+            android:layout_width="140dp"
+            android:layout_height="151dp"
+            android:layout_marginTop="64dp"
+            android:contentDescription="Photo"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_add_a_photo_24" />
+
+        <EditText
+            android:id="@+id/WorkerTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="464dp"
+            android:hint="+92xxx-xxxxxxx"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:textColor="#267CA5"
+            android:textColorHint="#757575"
+            android:textSize="20sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="264dp"
+            android:drawableLeft="@drawable/personname"
+            android:text="Name"
+            android:textSize="26sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/WorkName"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="324dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#267CA5"
+            android:textColorHint="#757575"
+            android:textSize="20sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="204dp"
+            android:gravity="center"
+            android:text="Change Photo"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/PhoneTextView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="404dp"
+            android:drawableLeft="@drawable/phonenum"
+            android:text="Phone Number"
+            android:textSize="26sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/CityTextView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="540dp"
+            android:drawableLeft="@drawable/personcity"
+            android:text="City"
+            android:textSize="26sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ExperienceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="688dp"
+            android:drawableLeft="@drawable/workerexperience"
+            android:text="Experience"
+            android:textSize="26sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/WorkerPersonExperience"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="748dp"
+            android:hint="Years of Experience"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#267CA5"
+            android:textColorHint="#757575"
+            android:textSize="20sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/WorkerUpdatebutton"
+            android:layout_width="266dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="1044dp"
+            android:backgroundTint="#267CA5"
+            android:text="Save"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/WorkerPersonExperience"
+            android:layout_marginTop="824dp"
+            android:background="#75B9F4"
+            android:orientation="vertical"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <CheckBox
+                android:id="@+id/Plumbing"
+                android:layout_width="211dp"
+                android:layout_height="48dp"
+                android:text="@string/plumbing" />
+
+            <CheckBox
+                android:id="@+id/Electrical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/electrical" />
+
+            <CheckBox
+                android:id="@+id/Carpentry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/carpentry" />
+
+            <CheckBox
+                android:id="@+id/Paint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/paint" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

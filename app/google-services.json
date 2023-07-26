@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "239168788841",
+    "firebase_url": "https://homemaintanenceserviceapp-default-rtdb.firebaseio.com",
+    "project_id": "homemaintanenceserviceapp",
+    "storage_bucket": "homemaintanenceserviceapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239168788841:android:02569fc5008c23c1db85f8",
+        "android_client_info": {
+          "package_name": "com.example.homemaintanenceserviceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239168788841-0rlsek1v1a5ls37h25ospjjhe36v0o3k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homemaintanenceserviceapp",
+            "certificate_hash": "532b75d22725ade0770b1d0870c0e4ed2729bd92"
+          }
+        },
+        {
+          "client_id": "239168788841-g8bgqpv5e8o6ssh66e22gi4aa770pvhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDDzSAWygLua3L7BynHn-w5_97INLfTQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239168788841-g8bgqpv5e8o6ssh66e22gi4aa770pvhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

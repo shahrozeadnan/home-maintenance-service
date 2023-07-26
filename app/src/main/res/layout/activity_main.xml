@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="288dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/fyp2" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="-20dp"
+            app:boxBackgroundMode="none">
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:drawableStart="@drawable/ic_email"
+                android:ems="10"
+                android:autofillHints=""
+                android:hint="@string/email_address"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textSize="15sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            app:boxBackgroundMode="none"
+            android:layout_marginTop="-20dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:autofillHints=""
+                android:drawableStart="@drawable/ic_pass"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textSize="15sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/Customer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/customer" />
+
+            <RadioButton
+                android:id="@+id/Worker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/worker"
+                android:textColor="#000000" />
+
+
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/LOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:text="@string/login"
+            android:textStyle="bold"
+            android:backgroundTint="#267CA5" />
+
+        <TextView
+            android:id="@+id/forgotpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?  "
+            android:clickable="true"
+            android:gravity = "right"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#267CA5"
+            />
+
+        <TextView
+            android:id="@+id/customer_signup"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/sign_up_as_customer"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/worker_signup"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/sign_up_as_worker"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>
